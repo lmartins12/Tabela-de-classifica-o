@@ -2,4 +2,4 @@
 
 Exercício para treinar paradigmas de objetos e tabelas.
 
-link: 
+link: https://github.com/lmartins12/Tabela-de-classifica-o
