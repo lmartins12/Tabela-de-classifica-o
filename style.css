@@ -1,0 +1,76 @@
+* {
+    text-align: center;
+  }
+  
+  body {
+    font-family: "times", monospace;
+    min-height: 400px;
+    background-color: #111;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+  div.opacity {
+    background-image: url("https://img.freepik.com/premium-photo/e-sport-arena_43901-82.jpg?w=2000");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    position: relative;
+    z-index: 1;
+  }
+
+  div.opacity::after {
+    content: '';
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .8;
+    z-index: -1;
+  }
+
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  
+  table {
+    border: 3px solid rgb(189, 189, 189);
+    border-collapse: collapse;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  th {
+    background-color: rgb(11, 19, 126);
+    opacity: 0.8;
+    
+  }
+  tr,
+  td {
+    border: solid 2px rgb(177, 177, 177);
+    color: white;
+  }
+  
